@@ -1,0 +1,76 @@
+{
+    "paths": {
+        "data_dir": "E:/AllProject/CookieTitleObject/RecommendAiModels/data",
+        "models_dir": "E:/AllProject/CookieTitleObject/RecommendAiModels/models",
+        "logs_dir": "logs",
+        "temp_dir": "temp"
+    },
+    "performance": {
+        "n_jobs": -1,
+        "memory_limit_mb": 0,
+        "cache_timeout": 30,
+        "enable_threading": true,
+        "async_loading": true,
+        "thread_pool_size": 16,
+        "use_threading": true,
+        "use_cache": true,
+        "cache_size_mb": 100,
+        "cache_ttl_minutes": 60
+    },
+    "data_generator": {
+        "users_count": 5000,
+        "questions_count": 20000,
+        "attempts_count": 200000,
+        "history_count": 30000
+    },
+    "model_trainer": {
+        "default_algorithm": "rf",
+        "enable_optimization": false,
+        "test_size": 0.2,
+        "random_state": 42
+    },
+    "ui": {
+        "theme": "default",
+        "font_size": 10,
+        "chart_dpi": 100,
+        "line_width": 1.0,
+        "window_width": 1200,
+        "window_height": 800,
+        "refresh_interval": 1000,
+        "font_family": "System",
+        "primary_color": "#1E88E5",
+        "secondary_color": "#FFC107",
+        "chart_style": "default",
+        "show_legend": true
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "file_enabled": true,
+        "console_output": true,
+        "file_output": false,
+        "max_size_mb": 10
+    },
+    "app": {
+        "name": "智能题目推荐系统",
+        "version": "1.0.0"
+    },
+    "model": {
+        "preload": true,
+        "batch_size": 32
+    },
+    "data": {
+        "random_seed": 42,
+        "default_count": 25000,
+        "feature_count": 20
+    },
+    "training": {
+        "default_test_size": 0.2,
+        "cv_folds": 5,
+        "early_stopping": true
+    },
+    "saving": {
+        "auto_save_model": true,
+        "save_history": true
+    }
+}

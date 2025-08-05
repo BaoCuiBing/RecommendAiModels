@@ -1,0 +1,22 @@
+2025-04-07 12:02:50,529 - user_model - INFO - 加载模型: models\recommender_model.pkl
+2025-04-07 12:02:50,529 - user_model - ERROR - 模型文件不存在: models\recommender_model.pkl
+2025-04-07 12:02:50,530 - user_model - WARNING - 模型未加载，尝试加载默认模型
+2025-04-07 12:02:50,530 - user_model - INFO - 加载模型: models\recommender_model.pkl
+2025-04-07 12:02:50,530 - user_model - ERROR - 模型文件不存在: models\recommender_model.pkl
+2025-04-07 12:02:50,530 - user_model - ERROR - 无法加载模型，使用冷启动策略
+2025-04-07 12:02:50,530 - user_model - WARNING - 没有可用的题目数据，返回虚拟题目ID
+2025-04-07 12:02:50,531 - user_model - WARNING - 模型未加载，尝试加载默认模型
+2025-04-07 12:02:50,531 - user_model - INFO - 加载模型: models\recommender_model.pkl
+2025-04-07 12:02:50,531 - user_model - ERROR - 模型文件不存在: models\recommender_model.pkl
+2025-04-07 12:02:50,531 - user_model - ERROR - 无法加载模型，使用冷启动策略
+2025-04-07 12:02:50,531 - user_model - WARNING - 没有可用的题目数据，返回虚拟题目ID
+2025-04-07 12:02:50,531 - user_model - WARNING - 模型未加载，尝试加载默认模型
+2025-04-07 12:02:50,531 - user_model - INFO - 加载模型: models\recommender_model.pkl
+2025-04-07 12:02:50,531 - user_model - ERROR - 模型文件不存在: models\recommender_model.pkl
+2025-04-07 12:02:50,531 - user_model - ERROR - 无法加载模型，使用冷启动策略
+2025-04-07 12:02:50,531 - user_model - WARNING - 没有可用的题目数据，返回虚拟题目ID
+2025-04-07 12:02:50,531 - user_model - WARNING - 模型未加载，尝试加载默认模型
+2025-04-07 12:02:50,531 - user_model - INFO - 加载模型: models\recommender_model.pkl
+2025-04-07 12:02:50,531 - user_model - ERROR - 模型文件不存在: models\recommender_model.pkl
+2025-04-07 12:02:50,531 - user_model - ERROR - 无法加载模型，使用冷启动策略
+2025-04-07 12:02:50,531 - user_model - WARNING - 没有可用的题目数据，返回虚拟题目ID
